@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">InstaGitHub</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="fullname">Full Name</string>
+    <string name="username">Username</string>
+    <string name="description">User Description</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="blog">Blog</string>
+    <string name="follower">Followers</string>
+    <string name="following">Following</string>
+    <string name="share">Share</string>
+    <string name="no_result">User Not Found</string>
+    <string name="init_number">0</string>
+    <string name="repository">Repositories</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="visit">Visit</string>
+
+    <string-array name="tab_menu">
+        <item>Followers</item>
+        <item>Following</item>
+    </string-array>
+
+</resources>

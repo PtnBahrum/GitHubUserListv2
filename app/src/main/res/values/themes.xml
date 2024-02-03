@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme. -->
+    <style name="Theme.GitHubUserListv2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_1</item>
+        <item name="colorPrimaryVariant">@color/black_1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black_1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="noAnimTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="style_view">
+        <item name="android:background">@color/gray_1</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <style name="color_highlight">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/white</item>
+        <item name="titleTextColor">@color/black_1</item>
+        <item name="minHeight">?actionBarSize</item>
+    </style>
+
+    <style name="layout">
+        <item name="android:background">@color/gray_1</item>
+    </style>
+
+    <style name="card_item">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="style_card">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="header_font_1" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_1</item>
+    </style>
+
+    <style name="header_font_2" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black_1</item>
+    </style>
+
+    <style name="content_font_small" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="drawableTint">@color/black_1</item>
+        <item name="android:textColor">@color/black_1</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="content_font_medium" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black_1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="content_font_small_grey" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="poppins" parent="@style/TextAppearance.AppCompat">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/black_1</item>
+    </style>
+</resources>
